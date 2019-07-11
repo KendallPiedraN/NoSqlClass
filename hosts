@@ -1,0 +1,897 @@
+                          # Copyright (c) 1993-2009 Microsoft Corp.
+#
+# This is a sample HOSTS file used by Microsoft TCP/IP for Windows.
+#
+# This file contains the mappings of IP addresses to host names. Each
+# entry should be kept on an individual line. The IP address should
+# be placed in the first column followed by the corresponding host name.
+# The IP address and the host name should be separated by at least one
+# space.
+#
+# Additionally, comments (such as these) may be inserted on individual
+# lines or following the machine name denoted by a '#' symbol.
+#
+# For example:
+#
+#      102.54.94.97     rhino.acme.com          # source server
+#       38.25.63.10     x.acme.com              # x client host
+
+# localhost name resolution is handled within DNS itself.
+#             127.0.0.1       localhost
+#             ::1             localhost
+172.16.2.15 sprint.newhomesource.com
+127.0.0.1       greatschools.org
+127.0.0.1       realestate.msn.com
+127.0.0.1       movoto
+127.0.0.1       realestate.com
+127.0.0.1       defaultsite.com
+172.16.50.123	svc-build.casasnuevasaqui.com
+172.16.50.123	build.casasnuevasaqui.com
+172.16.50.123	resources-build.casasnuevasaqui.com
+#172.16.50.140 sprint.newhomesource.com
+#172.16.50.140 sprint-newhomesource.move.com
+#172.16.50.140 sprint.newhomesourceprofessional.com
+172.16.50.140  sprint-newhomes.move.com
+#172.16.50.141  sprint.newhomesource.com
+#172.16.50.141  sprint.casasnuevasaqui.com
+172.16.50.140  sprint.casasnuevasaqui.com
+172.16.2.15    sprint.bhiautomationwebsite.com
+
+192.168.103.221 bdxstage01
+
+
+###################################################################
+######################### Homebuilder.com #########################
+###################################################################
+
+172.16.2.15    		sprint.homebuilder.com
+172.16.80.84   		test.homebuilder.com
+216.142.204.17 		stage.homebuilder.com
+
+
+###################################################################
+########################### ALL CONNECT ###########################
+###################################################################
+#----wendy test----
+#Bdxw1
+192.168.103.95           www1.newhomesource.com
+#Bdxw2
+192.168.103.96           www2.newhomesource.com
+#Bdxw3
+192.168.103.97           www3.newhomesource.com
+#Bdxw4
+192.168.103.98           www4.newhomesource.com 
+#Bdxw5
+192.168.103.99   www5.newhomesource.com
+#BDXw6
+192.168.103.100   www6.newhomesource.com
+#MNHW1
+192.168.103.65 www.newhomes.move.com
+#MNHW2
+#192.168.103.66 www.newhomes.move.com
+#MNHW3
+#192.168.103.67           www3.newhomes.move.com
+
+
+172.16.11.133    svc-dev.newhomesource.com
+#172.16.2.15       searchservice-sprint.newhomesource.com
+172.16.80.79     searchservice-test.newhomesource.com
+172.16.80.76     svc-test.newhomesource.com
+#192.168.103.71  nhsservices-stage.newhomesource.com
+#192.168.103.205 svc-stage.newhomesource.com
+#services.newhomesource.com  192.168.103.116 
+#services.newhomesource.com  192.168.103.117
+#services.newhomesource.com  192.168.103.118
+#services.newhomesource.com  192.168.103.119
+
+# Allconnect 1.7.0.0
+#devbuild
+172.16.2.7                            devbuild15.hsa.com
+172.16.80.140     devbuild15-1.hsa.com
+172.16.80.141     devbuild15-2.hsa.com
+172.16.2.7                            advisor-devbuild15.allconnect.com
+172.16.2.7                            allconnect-resources-devbuild15.allconnect.com
+172.16.2.7                            devbuild15.allcnct.com
+#Test
+172.16.80.91       allconnect-test.newhomesource.com
+172.16.80.91       allconnect-resources-test.newhomesource.com
+#stage
+216.142.204.56          advisor-stage.allconnect.com 
+192.168.103.93          advisor-stage1.allconnect.com 
+192.168.103.94          advisor-stage2.allconnect.com 
+216.142.204.56          resources-stage.allconnect.com
+
+
+##############################################################################
+########################### NCI - Apartment Finder ###########################
+##############################################################################
+
+# NCI The Real Estate Book and TREB Mobile                       ??? (devbuild?)
+#172.16.2.9                         treb-devbuild.bhitetst.com (the URL works without an IP)
+172.16.80.155                     test.realestatebook.com
+172.16.80.155                     trebmobile-test.bhitest.com
+172.16.80.142           treb-sandbox.bhitest.com
+172.16.80.157           trebmobile-dev.bhitest.com
+#208.67.44.31                    stage.realestatebook.com
+172.21.10.44                       trebw1
+172.21.10.45                       trebw2
+172.21.10.46                       trebw3
+#Unique Homes 
+172.16.2.7                            uh-devbuild.bhitest.com
+172.16.80.155                     test.uniquehomes.com
+
+
+#Entries below from Lisa to Nicole on 7/25/11
+#APARTMENTFINDER DEVBUILD
+66.194.87.101           www.devaf.com
+66.194.87.101           devaf.com
+66.194.87.101        resources.devaf.com
+66.194.87.101          dev-aptbook-colo.com
+66.194.87.101         www.dev-aptbook-colo.com
+66.194.87.101         denver.dev-aptbook-colo.com
+66.194.87.101        coloradosprings.dev-aptbook-colo.com
+66.194.87.101        devbuild-admin.apartmentfinder.com
+66.194.87.101        afmobile-dev.bhitest.com
+66.194.87.101        ws-devbuild.livingchoices.com
+
+#APARTMENTFINDER TEST
+172.16.80.154                     testaf.com
+172.16.80.154                     www.testaf.com
+172.16.80.154                     resources.testaf.com
+172.16.80.154                     www.test-aptbook-colo.com
+
+## NEW HOME BOOK DEVBUILD
+66.194.87.101               www.devbuildnhb.com
+66.194.87.101               denver.devbuildnhb.com
+66.194.87.101               coloradosprings.devbuildnhb.com
+66.194.87.101               charlotte.devbuildnhb.com
+66.194.87.101               dallas.devbuildnhb.com
+66.194.87.101               fortworth.devbuildnhb.com
+66.194.87.101               raleigh.devbuildnhb.com
+66.194.87.101               orlando.devbuildnhb.com
+66.194.87.101               daytona.devbuildnhb.com
+66.194.87.101               kansascity.devbuildnhb.com
+66.194.87.101               indianapolis.devbuildnhb.com
+66.194.87.101               nashville.devbuildnhb.com
+66.194.87.101               greenville.devbuildnhb.com
+66.194.87.101               spartanburg.devbuildnhb.com
+66.194.87.101               chapelhill.devbuildnhb.com
+
+
+## TREB DEVBUILD
+#66.194.87.101             treb-devbuild.bhitest.com
+
+## Unique Homes DEVBUILD
+#66.194.87.101             uh-devbuild.bhitest.com
+
+##Treb iPhone Web Services DEVBUILD
+66.194.87.101             trebws.realestatebook.com
+
+
+# @@@@@@@@@@@@@@@@@@@ STAGE @@@@@@@@@@@@@@@@@@
+## Apartment Finder Stage
+208.67.44.30    www.stageaf.com
+208.67.44.30    stage-admin.apartmentfinder.com
+208.67.44.30    afmobile-stage.bhitest.com
+208.67.44.30    resources.stageaf.com
+208.67.44.30    ws-stage.livingchoices.com
+208.67.44.30    www.stage-aptbook-colo.com
+
+## MLC/SLC Devbuild
+66.194.87.101           devbuild.seniorlivingchoices.com
+## There is no external access for MLC Homes in devbuild as it is hosted on the NHS hardware/IP address
+
+## SLC and MLC Stage
+208.67.44.30    stage.seniorlivingchoices.com
+216.142.204.51  stage.maturelivingchoices.com
+
+## New Home Book Stage
+208.67.44.30    www.stagenhb.com
+208.67.44.30    raleigh.stagenhb.com
+208.67.44.30    charlotte.stagenhb.com
+208.67.44.30    dallas.stagenhb.com
+208.67.44.30    fortworth.stagenhb.com
+208.67.44.30    denver.stagenhb.com
+208.67.44.30    coloradosprings.stagenhb.com
+208.67.44.30    greenville.stagenhb.com
+208.67.44.30    spartanburg.stagenhb.com
+208.67.44.30    indianapolis.stagenhb.com
+208.67.44.30    kansascity.stagenhb.com
+208.67.44.30    nashville.stagenhb.com
+208.67.44.30    orlando.stagenhb.com
+208.67.44.30    daytona.stagenhb.com
+208.67.44.30    raleigh.stagenhb.com
+208.67.44.30    chapelhill.stagenhb.com
+
+## TREB Stage
+208.67.44.31       stage.realestatebook.com
+208.67.44.31    trebmobile-stage.bhitest.com
+208.67.44.31    trebws-stage.realestatebook.com
+
+## Unique Homes Stage
+208.67.44.31       stage.uniquehomes.com
+
+##Treb iPhone Web Services Stage
+208.67.44.31  trebws-stage.realestatebook.com
+
+#New Home Book
+#Devbuild
+172.16.2.9            www.denver.devbuildnhb.com
+172.16.2.9            www.devbuildnhb.com
+172.16.2.9            www.charlotte.devbuildnhb.com
+172.16.2.9            www.dallas.devbuildnhb.com
+172.16.2.9            www.greenville.devbuildnhb.com
+172.16.2.9            www.indianapolis.devbuildnhb.com
+172.16.2.9            www.kansascity.devbuildnhb.com
+172.16.2.9            www.nashville.devbuildnhb.com
+172.16.2.9            www.orlando.devbuildnhb.com
+172.16.2.9            www.raleigh.devbuildnhb.com
+172.16.2.9            www.coloradosprings.devbuildnhb.com
+172.16.2.9            www.daytona.devbuildnhb.com
+172.16.2.9            www.fortworth.devbuildnhb.com
+172.16.2.9            www.chapelhill.devbuildnhb.com
+172.16.2.9            www.spartanburg.devbuildnhb.com
+
+#New Home Book
+#Test
+172.16.80.154     denver.testnhb.com
+172.16.80.154     testnhb.com
+172.16.80.154     www.testnhb.com
+172.16.80.154     charlotte.testnhb.com
+172.16.80.154     dallas.testnhb.com
+172.16.80.154     greenville.testnhb.com
+172.16.80.154     indianapolis.testnhb.com
+172.16.80.154     kansascity.testnhb.com
+172.16.80.154     nashville.testnhb.com
+172.16.80.154     orlando.testnhb.com
+172.16.80.154     raleigh.testnhb.com
+172.16.80.154     coloradosprings.testnhb.com
+172.16.80.154     daytona.testnhb.com
+172.16.80.154     fortworth.testnhb.com
+172.16.80.154     chapelhill.testnhb.com
+172.16.80.154     spartanburg.testnhb.com
+
+#New Home Book
+#Stage
+208.67.44.30       denver.stagenhb.com
+208.67.44.30       stagenhb.com
+208.67.44.30       www.stagenhb.com
+208.67.44.30       charlotte.stagenhb.com
+208.67.44.30       dallas.stagenhb.com
+208.67.44.30       greenville.stagenhb.com
+208.67.44.30       indianapolis.stagenhb.com
+208.67.44.30       kansascity.stagenhb.com
+208.67.44.30       nashville.stagenhb.com
+208.67.44.30       orlando.stagenhb.com
+208.67.44.30       raleigh.stagenhb.com
+208.67.44.30       coloradosprings.stagenhb.com
+208.67.44.30       daytona.stagenhb.com
+208.67.44.30       fortworth.stagenhb.com
+208.67.44.30       chapelhill.stagenhb.com
+208.67.44.30       spartanburg.stagenhb.com
+
+##################################################################
+########################### Microsites ###########################
+##################################################################
+172.16.80.140     www.allatlantautilities.com
+172.16.80.140     www.alldallas-fortworthutilities.com
+
+
+#TeleDynamics ==================================================================
+# DEVBUILD ENVIRONMENT #
+#172.16.2.7            td-devbuild.bhitest.com
+#172.16.2.10          td-devbuild.bhitest.com
+#172.16.2.7            tdadmin-devbuild.bhitest.com
+
+66.194.87.101        td-devbuild.bhitest.com
+66.194.87.101        tdadmin-devbuild.bhitest.com
+
+# TEST ENVIRONMENT #
+172.16.80.162    tdadmin-test.bhitest.com
+172.16.80.162    td-test.bhitest.com
+172.16.80.162    tdadmin-test.newhomesource.com
+
+# STAGE ENVIRONMENT #
+216.142.204.42  stage.teledynamics.com
+216.142.204.42  admin-stage.teledynamics.com
+
+# PRODUCTION ENVIRONMENT #
+216.142.204.41  www.teledynamics.com
+216.142.204.41  admin.teledynamics.com
+
+#========== ==================================================================
+
+GCPA
+
+# GCPA DEVBUILD
+#172.16.2.11                       devbuild.gulfcoastpower.org
+#172.16.2.11                       devbuild-cms.gulfcoastpower.org
+172.16.80.141                     devbuild.gulfcoastpower.org
+172.16.80.141                     devbuild-cms.gulfcoastpower.org
+
+# GCPA TEST
+172.16.80.135                     test.gulfcoastpower.org
+172.16.80.135                     test-cms.gulfcoastpower.org
+
+# GCPA STAGE
+216.142.204.44                  stage.gulfcoastpower.org
+216.142.204.44                  stage-cms.gulfcoastpower.org
+
+# GCPA PROD
+#216.142.204.43                                www.gulfcoastpower.org
+#216.142.204.43                                cms.gulfcoastpower.org
+
+####•••••••••••••••••••••####
+####         BDX         ####
+####•••••••••••••••••••••####
+#Stage
+#216.142.204.44  stage.thebdxlive.com 
+#Stage enviroment
+#bdxstgw1
+#192.168.103.77 stage.thebdxlive.com
+#bdxstgw2
+#192.168.103.78 stage.thebdxlive.com
+
+
+#172.16.50.140   build.thebdxlive.com ## not load balancer affected
+172.16.2.23     test.thebdxlive.com  ## new ip for load balancing
+172.16.80.84    test1.thebdxlive.com ## bdxtestw1
+172.16.50.85    test2.thebdxlive.com ## bdxtestw2
+172.16.50.140   hf.thebdxlive.com    #  hotfix
+
+#BDX Live
+172.16.2.4      build.bdxlive.com
+#172.16.2.4    build.thebdxlive2.com
+172.16.2.23     test.thebdxlive.com
+
+172.16.2.4          xmlvalidation-build.thebdxlive.
+#BDXLive 64 bits OS
+#    172.16.2.22              build.thebdxlive.com  #load balancing
+#    172.16.50.140              build.thebdxlive.com #nhsdevfew1
+#    172.16.50.141              build.thebdxlive.com #nhsdevfew2
+
+
+172.16.80.76 test.newhomelistings.com
+216.142.204.17 stage.newhomelistings.com
+#192.168.103.54 www.newhomelistings.com
+#172.16.2.4 sprint.newhomelistings.com
+#172.16.2.4     build.newhomelistings.com 
+
+
+#172.16.80.134 www.aolrealestate.com    
+
+##172.16.102.54  www.thebdxlive.com
+##172.16.102.54  www.casasnuevasaqui.com
+##172.16.102.54  www.newretirementcommunities.com
+##172.16.102.54 www.newhomes.move.com
+#172.16.102.54 www.newhomesource.com
+
+##172.16.80.98    www.newhomesourceprofessional.com
+
+
+172.16.2.4       build-leads.newhomesource.com
+172.16.50.60     bdx.resources.com
+172.16.80.76   leads-test.newhomesource.com
+##192.168.103.80 leads.newhomesource.com
+##192.168.103.81 leads.newhomesource.com
+
+
+####NHS’s new Sprint environment
+#172.16.2.4            sprint.newhomesource.com
+#172.16.2.4            sprint-newhomes.move.com
+#172.16.2.15            resources-sprint.newhomesource.com
+172.16.80.168      sprint-irs.bdxcdn.com
+
+
+##NRC
+
+172.16.2.4    build.newretirementcommunities.com
+172.16.2.4    resources-build.newretirementcommunities.com
+172.16.80.76      test.newretirementcommunities.com
+
+
+
+###Eflyer
+
+172.16.50.123     build-eflyer.move.com
+172.16.80.118     eflyer-test.move.com
+
+
+#nhs7
+#192.168.103.55  www.newhomesource.com
+#192.168.103.41  newhomes.move.com
+##192.168.103.120 resources.newhomesource.com
+
+172.16.2.4                            nhs7build.newhomesource.com
+172.16.2.4                            build7-newhomes.move.com
+172.16.50.123                                       nhs7services-build.newhomesource.com
+172.16.2.15                            nhs7resources-build.newhomesource.com
+
+
+
+#nhs7 test
+172.16.80.79       nhs7services-test.newhomesource.com
+172.16.80.119     nhs7resources-test.newhomesource.com
+172.16.80.119     nhs7-resources-test.bhitest.com
+172.16.80.76       nhs7-test.bhitest.com
+#172.16.80.76       test-newhomes.move.com
+172.16.80.76       Nhs7-test.newhomesource.com
+
+
+Host entries:
+##192.168.103.57  69.newhomesource.com
+##192.168.103.43  newhomes69.move.com
+##192.168.103.57  svc.newhomesource.com
+
+
+
+216.142.204.17  stage69.newhomesource.com
+
+
+
+172.16.80.76  test69.newhomesource.com
+ ####hot fix###
+172.16.2.15           hf-nhs-static-js.newhomesource.com
+172.16.2.15           hf-nhs-static-css.newhomesource.com
+172.16.2.15           hf-kendo.newhomesource.com
+
+#NHS Hot Fix Env
+172.16.2.15            hfresources.newhomesource.com
+172.16.2.15           hf-kendo.bdxcdn.com
+172.16.2.15  hf-nhs-static-js.bdxcdn.com
+172.16.2.15  hf-nhs-static-css.bdxcdn.com
+172.16.2.15  hf-nhs-static-js.newhomesource.com
+172.16.2.15  hf-nhs-static-css.newhomesource.com
+172.16.2.15            hf.newhomesource.com
+172.16.2.15            hf-newhomes.move.com
+172.16.2.15            hfservices.newhomesource.com
+172.16.2.15     hf.casasnuevasaqui.com
+
+#NHS PRO7
+#172.16.50.123  build7.newhomesourceprofessional.com
+#test  new home source p
+#172.16.80.84       www.newhomesourceprofessional.com
+#192.168.103.205   stage.newhomesourceprofessional.com
+
+# NHSPRO Site on NHS7
+#172.16.2.4 sprint.newhomesourceprofessional.com
+#172.16.2.4 www.newhomesourceprofessional.com
+
+#CMS Dev
+172.16.80.147     cms-dev.newhomesource.com
+#172.16.2.4  sprint.greatschools.org
+172.16.2.4      build.casasnuevasaqui.com    
+172.16.2.4      resources-build.casasnuevasaqui.com
+172.16.2.4      svc-build.casasnuevasaqui.com
+#
+172.16.2.4            build.newretirementcommunities.com
+172.16.2.4            resources-build.newretirementcommunities.com
+#172.16.2.15 sprint.newhomesource.com
+#172.16.50.140 sprint-newhomes.move.com
+#172.16.2.15 sprint.newhomelistings.com
+#172.16.2.15 sprint.newhomesourceprofessional.com
+
+#test
+172.16.80.119 test-irs.bdxcdn.com
+#172.16.80.76 www.newhomesourceprofessional.com
+#sprint
+#172.16.2.15 www.newhomesourceprofessional.com
+#172.16.2.15 newhomesourceprofessional.com
+#stage
+#192.168.103.205 www.newhomesourceprofessional.com
+#CMS Dev
+172.16.80.147     cms-dev.newhomesource.com
+172.16.80.148     cms-test.newhomesource.com
+
+172.16.80.140 webarch-bdx-devbuild.exsquared.com
+#172.16.11.133    svc-dev.newhomesource.com
+#172.16.2.15       searchservice-sprint.newhomesource.com
+172.16.80.79     searchservice-test.newhomesource.com
+172.16.80.76     svc-test.newhomesource.com
+172.16.80.36 build-api.thebdxlive.com 
+172.16.80.45 test-api.thebdxlive.com
+216.142.204.44    stage-api.thebdxlive.com
+#64 bit testing
+
+172.16.80.84 test-newhomes.move.com
+#172.16.80.84 test.newhomesource.com
+172.16.80.84 test.newhomesourceprofessional.com
+172.16.80.84 test.newhomelistings.com
+172.16.80.84 svc-test.newhomesource.com  
+# stage 64-bit
+216.142.204.17 stage.newhomesource.com
+216.142.204.17 stage.newhomesourceprofessional.com
+
+#216.142.204.27  stage-newhomes.move.com
+216.142.204.17 stage-newhomes.move.com
+216.142.204.17 svc-stage.newhomesource.com
+216.142.204.17 nhsservices-stage.newhomesource.com
+
+172.16.2.15  ipresources-sprint.newhomesource.com
+
+#CQI
+172.16.2.15            cqiservices.newhomesource.com
+172.16.2.15            cqiresources.newhomesource.com
+172.16.2.15            cqi.newhomesource.com
+172.16.2.15            cqi.newhomesourceprofessional.com
+172.16.2.15            cqi-newhomes.move.com
+172.16.2.15            cqi.newhomelistings.com
+
+#Prod
+#             Production 64-bit
+#216.142.204.62  www.newhomesource.com
+#216.142.204.62  www.newhomelistings.com
+#216.142.204.62 www.newhomesourceprofessional.com
+#216.142.204.61  www.newhomes.move.com
+#216.142.204.62  svc.newhomesource.com
+#216.142.204.61  newhomes.move.com
+#216.142.204.62  newhomesource.com
+#216.142.204.62  newhomelistings.com
+#216.142.204.62 newhomesourceprofessional.com
+
+#Prod Host NHS and SVC W1 95-98
+#192.168.103.95  www.newhomesource.com
+#192.168.103.95  svc.newhomesource.com
+#192.168.103.95 newhomesource.com
+
+#Prod Host NHS and SVC W1 95-98
+#192.168.103.96  www.newhomesource.com
+#192.168.103.96  svc.newhomesource.com
+#192.168.103.96 newhomesource.com
+
+#Prod Host NHS and SVC W1 95-98
+#192.168.103.97  www.newhomesource.com
+#192.168.103.97  svc.newhomesource.com
+#192.168.103.97 newhomesource.com
+
+#Prod Host NHS and SVC W1 95-98
+#192.168.103.98  www.newhomesource.com
+#192.168.103.98  svc.newhomesource.com
+#192.168.103.98 newhomesource.com
+#172.16.2.15 sprint-api.newhomesource.com
+172.16.80.84 test-api.newhomesource.com
+#216.142.204.17 stage-api.newhomesource.com
+#192.168.103.95 api.newhomesource.com
+172.16.2.15 hf-api.newhomesource.com
+172.16.2.29 sprint-api.newhomesource.com
+172.16.2.29 sprint2-api.newhomesource.com
+172.16.2.29 sprint1-api.newhomesource.com
+
+172.16.50.140 responsive.newhomesource.com
+172.16.50.140 searchservice-responsive.newhomesource.com
+172.16.50.140 resources-responsive.newhomesource.com
+172.16.50.140 responsive-api.newhomesource.com
+172.16.50.60 sprint.bhimetrics.com
+172.16.50.140 hf.thebdxlive.com
+
+172.16.50.140    cna.casasnuevasaqui.com
+172.16.50.140    cna.newhomesource.com
+172.16.50.140    cna-newhomes.move.com
+172.16.50.140    cna.newhomesourceprofessional.com
+### Alpha Project
+172.16.2.15         alpha.newhomesource.com
+172.16.2.15         alpha-newhomes.move.com/
+172.16.2.15      resources-alpha.newhomesource.com
+172.16.2.15         alpha.casasnuevasaqui.com
+
+
+## Ticker
+172.16.50.60       ticker.newhomesource.com
+#bdxlive web API
+172.16.50.140              build.bdx.api.com #nhsdevfew1
+
+#bdxlive web API
+172.16.50.140   build-api.thebdxlive.com   #nhsdevfew1
+##NHS Pro 8
+
+
+#NHS Hot Fix Env
+#172.16.50.140            hf.newhomesource.com
+172.16.50.140       hf-api.newhomesource.com
+#172.16.2.15            hf.casasnuevasaqui.com
+172.16.2.15            hf.homebuilder.com
+
+
+127.0.0.1              dev-kendo.bdxcdn.com
+172.16.2.15           sprint-kendo.bdxcdn.com
+172.16.2.15           hf-kendo.bdxcdn.com
+**172.16.80.119           test-kendo.bdxcdn.com
+
+172.16.2.15  sprint-nhs-static-js.bdxcdn.com
+172.16.2.15  sprint-nhs-static-css.bdxcdn.com
+172.16.2.15  hf-nhs-static-js.bdxcdn.com
+172.16.2.15  hf-nhs-static-css.bdxcdn.com
+
+172.16.2.15             pr-resources.newhomesource.com
+172.16.2.15             pr-kendo.newhomesource.com
+172.16.2.15             pr-nhs-static-js.newhomesource.com
+172.16.2.15             pr-nhs-static-css.newhomesource.com
+172.16.2.15             pr-newhomes.move.com
+172.16.2.15             pr.casasnuevasaqui.com
+172.16.2.15             pr.newhomelistings.com
+172.16.2.15             pr.homebuilder.com
+
+**172.16.80.119    test-nhs-static-js.bdxcdn.com
+**172.16.80.119    test-nhs-static-css.bdxcdn.com
+172.16.50.140            sprint.newhomelistings.com
+172.16.2.15           sprint-nhs-static-js.newhomesource.com
+172.16.2.15           sprint-nhs-static-css.newhomesource.com
+172.16.2.15           sprint-kendo.newhomesource.com
+
+**172.16.2.16           test-nhs-static-js.newhomesource.com
+**172.16.2.16           test-nhs-static-css.newhomesource.com
+**172.16.2.16           test-kendo.newhomesource.com
+172.16.2.16           test.newhomesource.com
+172.16.2.16           test.newhomelistings.com
+172.16.2.15            sprint.newhomelistings.com
+
+#216.142.204.16    newhomes.move.com
+
+#*****************Build Pro8*************************#
+172.16.50.141 sprint.newhomesourceprofessional.com
+172.16.50.141 resources-build.newhomesourceprofessional.com
+172.16.50.141 build.showingnew.com
+#172.16.50.140 build.newhomesourceprofessional.com
+#172.16.50.141 sprint.newhomesourceprofessional.com
+#172.16.50.141 resources-sprint.newhomesourceprofessional.com
+#172.16.50.141 sprint.showingnew.com
+
+#*****************Build Pro8*************************#
+
+
+
+172.16.2.15            sprint-shoppingkit.newhomesource.com
+
+#HOTFIXES BUILD
+
+172.16.2.15            hf.newhomesource.com
+#172.16.2.15            hf.newhomesourceprofessional.com
+172.16.2.15            hf-newhomes.move.com
+172.16.2.15            hfservices.newhomesource.com
+172.16.2.15            hfresources.newhomesource.com
+#172.16.2.15          www.newhomesourceprofessional.com
+
+
+
+
+************answerhub**********
+172.16.2.15            s1.newhomesource.com
+172.16.2.15            resources-s1.newhomesource.com
+172.16.2.15           s1-nhs-static-js.newhomesource.com
+172.16.2.15           s1-nhs-static-css.newhomesource.com
+
+
+#**********************************************#
+#NHS Hot Fix Env
+#172.16.50.140           hf.newhomesource.com
+172.16.50.140      	hf-api.newhomesource.com
+172.16.2.15            	hf.casasnuevasaqui.com
+172.16.2.15            	hf.homebuilder.com
+#***********************************************#
+
+#**********PRO-para PL*******#
+#Build
+#172.16.50.141 www.newhomesourceprofessional.com
+#Test
+#172.16.80.84 www.newhomesourceprofessional.com
+#Stage
+#192.168.103.77 www.newhomesourceprofessional.com
+#HF
+#172.16.50.140 www.newhomesourceprofessional.com
+
+#************************************************#
+
+
+
+#****************Beta Production Mobile****************#
+
+#192.168.103.95 mobile.newhomesourceprofessional.com
+#192.168.103.95 mobile.showingnew.com 
+#192.168.103.95 resources-mobile.newhomesourceprofessional.com
+#******************************************************#
+
+
+
+
+
+#*****************test and stage PRO8*************************#
+
+192.168.103.77 stage.showingnew.com
+192.168.103.77 stage.newhomesourceprofessional.com
+192.168.103.77 stage-resources.newhomesourceprofessional.com
+192.168.103.77 stage-mobile.newhomesourceprofessional.com 
+192.168.103.77 stage-mobile.showingnew.com
+192.168.103.77 stage-resources-mobile.newhomesourceprofessional.com
+
+
+172.16.80.84 test.showingnew.com
+172.16.80.84 test.newhomesourceprofessional.com
+172.16.80.84 test-resources.newhomesourceprofessional.com
+172.16.80.84 test-mobile.newhomesourceprofessional.com
+172.16.80.84 test-mobile.showingnew.com
+172.16.80.84 test-resources-mobile.newhomesourceprofessional.com
+
+#*****************test and stage PRO8*************************#
+
+
+172.16.2.15  sprint-nhs-static-js.bdxcdn.com
+172.16.2.15  sprint-nhs-static-css.bdxcdn.com
+172.16.2.15  hf-nhs-static-js.bdxcdn.com
+172.16.2.15  hf-nhs-static-css.bdxcdn.com
+
+
+#***************** bdxlive web API*************************#
+172.16.50.140               build-api.thebdxlive.com 
+172.16.80.84               test-api.thebdxlive.com
+216.142.204.44    stage-api.thebdxlive.com
+
+
+
+172.16.2.15  sprint-nhs-static-js.bdxcdn.com
+172.16.2.15  sprint-nhs-static-css.bdxcdn.com
+172.16.2.15  hf-nhs-static-js.bdxcdn.com
+172.16.2.15  hf-nhs-static-css.bdxcdn.com
+
+#************NHS para probar sign in***************************#
+#172.16.50.140 sprint1.newhomesource.com
+#172.16.50.141 sprint2.newhomesource.com
+#172.16.50.142 sprint3.newhomesource.com
+#172.16.50.143 sprint4.newhomesource.com
+#172.16.50.140 pr.newhomesource.com
+#172.16.50.141 pr.newhomesource.com
+#**************************************************************#
+#POINT RELEASES Build
+172.16.2.15             pr-resources.newhomesource.com
+172.16.2.15             pr-kendo.newhomesource.com
+172.16.2.15        pr-nhs-static-js.newhomesource.com
+172.16.2.15        pr-nhs-static-css.newhomesource.com
+172.16.2.15             pr.newhomesource.com
+172.16.2.15             pr-newhomes.move.com
+172.16.2.15             pr.casasnuevasaqui.com
+172.16.2.15             pr.newhomelistings.com
+172.16.2.15             pr.homebuilder.com
+#*************Servers en produccion************************#
+#Bdxw1
+192.168.103.95           www1.newhomesource.com
+#Bdxw2
+192.168.103.96           www2.newhomesource.com
+#Bdxw3
+192.168.103.97           www3.newhomesource.com
+#Bdxw4
+192.168.103.98           www4.newhomesource.com 
+#Bdxw5
+192.168.103.99  	 www5.newhomesource.com
+#BDXw6
+192.168.103.100   	www6.newhomesource.com
+#Bdxw7
+192.168.103.65   	www7.newhomesource.com
+#Bdxw8 
+192.168.103.66 		www8.newhomesource.com
+#************************************************************#
+172.16.2.15  sprint.bireports.com
+
+#****answerhub****#
+172.16.2.15            s1.newhomesource.com
+172.16.2.15            resources-s1.newhomesource.com
+172.16.2.15           s1-nhs-static-js.newhomesource.com
+172.16.2.15           s1-nhs-static-css.newhomesource.com
+
+# Strategic 2 Sprint ********#
+
+172.16.50.140 s2.newhomesource.com 
+172.16.50.140 resources-s2.newhomesource.com 
+172.16.50.140 s2-kendo.bdxcdn.com
+172.16.50.140 s2-nhs-static-js.bdxcdn.com
+172.16.50.140 s2-nhs-static-css.bdxcdn.com
+172.16.50.140 s2-kendo.newhomesource.com
+172.16.50.140 s2-nhs-static-css.newhomesource.com
+172.16.50.140 s2-nhs-static-js.newhomesource.com
+172.16.50.140 s2.homebuilder.com
+172.16.50.140 s2.casasnuevasaqui.com 
+# Strategic 2 Sprint ********#
+
+**************** Strategic 2 Sprint ************************#
+
+#Bdxw1
+#192.168.103.95           www.casasnuevasaqui.com
+#Bdxw2
+#192.168.103.96           www.casasnuevasaqui.com
+#Bdxw3
+#192.168.103.97           www.casasnuevasaqui.com
+#Bdxw4
+#192.168.103.98           www.casasnuevasaqui.com 
+#Bdxw5
+#192.168.103.99      www.casasnuevasaqui.com
+#BDXw6
+#192.168.103.100     www.casasnuevasaqui.com
+
+
+*****************************************
+
+#*************Servers en produccion MOVE************************#
+#Bdxw1
+#192.168.103.95           newhomes.move.com
+#Bdxw2
+#192.168.103.96          newhomes.move.com
+#Bdxw3
+#192.168.103.97          newhomes.move.com
+#Bdxw4
+#192.168.103.98          newhomes.move.com
+#Bdxw5
+#192.168.103.99     newhomes.move.com
+#BDXw6
+#192.168.103.100    newhomes.move.com
+
+#*************Servers en produccion HB***************************#
+#Bdxw1
+#192.168.103.95           www.homebuilder.com
+#Bdxw2
+#192.168.103.96          www.homebuilder.com
+#Bdxw3
+#192.168.103.97          www.homebuilder.com
+#Bdxw4
+#192.168.103.98          www.homebuilder.com
+#Bdxw5
+#192.168.103.99     www.homebuilder.com
+#BDXw6
+#192.168.103.100    www.homebuilder.com
+
+#************************************************************#
+
+#NHG Staging
+192.168.103.231   stage-nhg.newhomesource.com  # CD Server: bdxstgscw1
+#192.168.103.232   stage-nhg.newhomesource.com  # CD Server: bdxstgscw2
+192.168.103.233  stage-nhg-cms.newhomesource.com # CM Server: bdxstgscwa
+
+#NHG Production
+192.168.103.227   nhg.newhomesource.com # CD Server: bdxscw1
+#192.168.103.228   nhg.newhomesource.com # CD Server: bdxscw2
+192.168.103.229  nhg-cms.newhomesource.com # CM Server: bdxscwa
+66.194.87.101 build-nhg.newhomesource.com
+
+#*************************************************************#
+192.168.103.77 stage1.newhomesource.com
+192.168.103.78 stage2.newhomesource.com
+#**************************************************************#
+172.16.80.173 bdxcdev2.newhomesource.com
+172.16.50.140 build1.thebdxlive.com #nhsdevfew1
+
+172.16.50.140 polymer.thebdxlive.com
+
+# unchecky_begin
+# These rules were added by the Unchecky program in order to block advertising software modules
+0.0.0.0 0.0.0.0 # fix for traceroute and netstat display anomaly
+0.0.0.0 tracking.opencandy.com.s3.amazonaws.com
+0.0.0.0 media.opencandy.com
+0.0.0.0 cdn.opencandy.com
+0.0.0.0 tracking.opencandy.com
+0.0.0.0 api.opencandy.com
+0.0.0.0 installer.betterinstaller.com
+0.0.0.0 installer.filebulldog.com
+0.0.0.0 d3oxtn1x3b8d7i.cloudfront.net
+0.0.0.0 inno.bisrv.com
+0.0.0.0 nsis.bisrv.com
+0.0.0.0 cdn.file2desktop.com
+0.0.0.0 cdn.goateastcach.us
+0.0.0.0 cdn.guttastatdk.us
+0.0.0.0 cdn.inskinmedia.com
+0.0.0.0 cdn.insta.oibundles2.com
+0.0.0.0 cdn.insta.playbryte.com
+0.0.0.0 cdn.llogetfastcach.us
+0.0.0.0 cdn.montiera.com
+0.0.0.0 cdn.msdwnld.com
+0.0.0.0 cdn.mypcbackup.com
+0.0.0.0 cdn.ppdownload.com
+0.0.0.0 cdn.riceateastcach.us
+0.0.0.0 cdn.shyapotato.us
+0.0.0.0 cdn.solimba.com
+0.0.0.0 cdn.tuto4pc.com
+0.0.0.0 cdn.appround.biz
+0.0.0.0 cdn.bigspeedpro.com
+0.0.0.0 cdn.bispd.com
+0.0.0.0 cdn.bisrv.com
+0.0.0.0 cdn.cdndp.com
+0.0.0.0 cdn.download.sweetpacks.com
+0.0.0.0 cdn.dpdownload.com
+0.0.0.0 cdn.visualbee.net
+# unchecky_end
